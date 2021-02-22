@@ -17,7 +17,9 @@ public class SheetReader {
     private HSSFSheet sheet;
 
     /**
-     * Sheetreader constructor creates HSSFSheet from XSL file
+     * Creates XSSF Workbook from XSL file
+     * XSSF Workbook from Apache POI for working with with XSL files
+     * Returns HSSFSheet used in other methods
      * @param pathname
      * @throws IOException
      */
@@ -95,7 +97,5 @@ public class SheetReader {
             }
         return distanceNodes;
     }
-
-
 }
 
